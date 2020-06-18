@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11954D37249BB0AF00E64D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D36249BB0AF00E64D36 /* AppDelegate.swift */; };
+		11954D39249BB0AF00E64D36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D38249BB0AF00E64D36 /* SceneDelegate.swift */; };
+		11954D3B249BB0AF00E64D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D3A249BB0AF00E64D36 /* ViewController.swift */; };
+		11954D3E249BB0AF00E64D36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11954D3C249BB0AF00E64D36 /* Main.storyboard */; };
+		11954D40249BB0B200E64D36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11954D3F249BB0B200E64D36 /* Assets.xcassets */; };
+		11954D43249BB0B200E64D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11954D41249BB0B200E64D36 /* LaunchScreen.storyboard */; };
+		11954D4E249BB0B200E64D36 /* photo_library_miraiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D4D249BB0B200E64D36 /* photo_library_miraiTests.swift */; };
+		11954D59249BB0B200E64D36 /* photo_library_miraiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D58249BB0B200E64D36 /* photo_library_miraiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11954D4A249BB0B200E64D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11954D2B249BB0AF00E64D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11954D32249BB0AF00E64D36;
+			remoteInfo = "photo-library-mirai";
+		};
+		11954D55249BB0B200E64D36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11954D2B249BB0AF00E64D36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11954D32249BB0AF00E64D36;
+			remoteInfo = "photo-library-mirai";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11954D33249BB0AF00E64D36 /* photo-library-mirai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-library-mirai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11954D36249BB0AF00E64D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		11954D38249BB0AF00E64D36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		11954D3A249BB0AF00E64D36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		11954D3D249BB0AF00E64D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		11954D3F249BB0B200E64D36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11954D42249BB0B200E64D36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		11954D44249BB0B200E64D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11954D49249BB0B200E64D36 /* photo-library-miraiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo-library-miraiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11954D4D249BB0B200E64D36 /* photo_library_miraiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo_library_miraiTests.swift; sourceTree = "<group>"; };
+		11954D4F249BB0B200E64D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11954D54249BB0B200E64D36 /* photo-library-miraiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo-library-miraiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11954D58249BB0B200E64D36 /* photo_library_miraiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo_library_miraiUITests.swift; sourceTree = "<group>"; };
+		11954D5A249BB0B200E64D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11954D30249BB0AF00E64D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11954D46249BB0B200E64D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11954D51249BB0B200E64D36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11954D2A249BB0AF00E64D36 = {
+			isa = PBXGroup;
+			children = (
+				11954D35249BB0AF00E64D36 /* photo-library-mirai */,
+				11954D4C249BB0B200E64D36 /* photo-library-miraiTests */,
+				11954D57249BB0B200E64D36 /* photo-library-miraiUITests */,
+				11954D34249BB0AF00E64D36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11954D34249BB0AF00E64D36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11954D33249BB0AF00E64D36 /* photo-library-mirai.app */,
+				11954D49249BB0B200E64D36 /* photo-library-miraiTests.xctest */,
+				11954D54249BB0B200E64D36 /* photo-library-miraiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11954D35249BB0AF00E64D36 /* photo-library-mirai */ = {
+			isa = PBXGroup;
+			children = (
+				11954D36249BB0AF00E64D36 /* AppDelegate.swift */,
+				11954D38249BB0AF00E64D36 /* SceneDelegate.swift */,
+				11954D3A249BB0AF00E64D36 /* ViewController.swift */,
+				11954D3C249BB0AF00E64D36 /* Main.storyboard */,
+				11954D3F249BB0B200E64D36 /* Assets.xcassets */,
+				11954D41249BB0B200E64D36 /* LaunchScreen.storyboard */,
+				11954D44249BB0B200E64D36 /* Info.plist */,
+			);
+			path = "photo-library-mirai";
+			sourceTree = "<group>";
+		};
+		11954D4C249BB0B200E64D36 /* photo-library-miraiTests */ = {
+			isa = PBXGroup;
+			children = (
+				11954D4D249BB0B200E64D36 /* photo_library_miraiTests.swift */,
+				11954D4F249BB0B200E64D36 /* Info.plist */,
+			);
+			path = "photo-library-miraiTests";
+			sourceTree = "<group>";
+		};
+		11954D57249BB0B200E64D36 /* photo-library-miraiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11954D58249BB0B200E64D36 /* photo_library_miraiUITests.swift */,
+				11954D5A249BB0B200E64D36 /* Info.plist */,
+			);
+			path = "photo-library-miraiUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11954D32249BB0AF00E64D36 /* photo-library-mirai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11954D5D249BB0B200E64D36 /* Build configuration list for PBXNativeTarget "photo-library-mirai" */;
+			buildPhases = (
+				11954D2F249BB0AF00E64D36 /* Sources */,
+				11954D30249BB0AF00E64D36 /* Frameworks */,
+				11954D31249BB0AF00E64D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "photo-library-mirai";
+			productName = "photo-library-mirai";
+			productReference = 11954D33249BB0AF00E64D36 /* photo-library-mirai.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11954D48249BB0B200E64D36 /* photo-library-miraiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11954D60249BB0B200E64D36 /* Build configuration list for PBXNativeTarget "photo-library-miraiTests" */;
+			buildPhases = (
+				11954D45249BB0B200E64D36 /* Sources */,
+				11954D46249BB0B200E64D36 /* Frameworks */,
+				11954D47249BB0B200E64D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11954D4B249BB0B200E64D36 /* PBXTargetDependency */,
+			);
+			name = "photo-library-miraiTests";
+			productName = "photo-library-miraiTests";
+			productReference = 11954D49249BB0B200E64D36 /* photo-library-miraiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11954D53249BB0B200E64D36 /* photo-library-miraiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11954D63249BB0B200E64D36 /* Build configuration list for PBXNativeTarget "photo-library-miraiUITests" */;
+			buildPhases = (
+				11954D50249BB0B200E64D36 /* Sources */,
+				11954D51249BB0B200E64D36 /* Frameworks */,
+				11954D52249BB0B200E64D36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11954D56249BB0B200E64D36 /* PBXTargetDependency */,
+			);
+			name = "photo-library-miraiUITests";
+			productName = "photo-library-miraiUITests";
+			productReference = 11954D54249BB0B200E64D36 /* photo-library-miraiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11954D2B249BB0AF00E64D36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Achmad Abdul Aziz";
+				TargetAttributes = {
+					11954D32249BB0AF00E64D36 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					11954D48249BB0B200E64D36 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 11954D32249BB0AF00E64D36;
+					};
+					11954D53249BB0B200E64D36 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 11954D32249BB0AF00E64D36;
+					};
+				};
+			};
+			buildConfigurationList = 11954D2E249BB0AF00E64D36 /* Build configuration list for PBXProject "photo-library-mirai" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11954D2A249BB0AF00E64D36;
+			productRefGroup = 11954D34249BB0AF00E64D36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11954D32249BB0AF00E64D36 /* photo-library-mirai */,
+				11954D48249BB0B200E64D36 /* photo-library-miraiTests */,
+				11954D53249BB0B200E64D36 /* photo-library-miraiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11954D31249BB0AF00E64D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11954D43249BB0B200E64D36 /* LaunchScreen.storyboard in Resources */,
+				11954D40249BB0B200E64D36 /* Assets.xcassets in Resources */,
+				11954D3E249BB0AF00E64D36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11954D47249BB0B200E64D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11954D52249BB0B200E64D36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11954D2F249BB0AF00E64D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11954D3B249BB0AF00E64D36 /* ViewController.swift in Sources */,
+				11954D37249BB0AF00E64D36 /* AppDelegate.swift in Sources */,
+				11954D39249BB0AF00E64D36 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11954D45249BB0B200E64D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11954D4E249BB0B200E64D36 /* photo_library_miraiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11954D50249BB0B200E64D36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11954D59249BB0B200E64D36 /* photo_library_miraiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11954D4B249BB0B200E64D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11954D32249BB0AF00E64D36 /* photo-library-mirai */;
+			targetProxy = 11954D4A249BB0B200E64D36 /* PBXContainerItemProxy */;
+		};
+		11954D56249BB0B200E64D36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11954D32249BB0AF00E64D36 /* photo-library-mirai */;
+			targetProxy = 11954D55249BB0B200E64D36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		11954D3C249BB0AF00E64D36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11954D3D249BB0AF00E64D36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		11954D41249BB0B200E64D36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				11954D42249BB0B200E64D36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		11954D5B249BB0B200E64D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11954D5C249BB0B200E64D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11954D5E249BB0B200E64D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "photo-library-mirai/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tria-project.photo-library-mirai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11954D5F249BB0B200E64D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "photo-library-mirai/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tria-project.photo-library-mirai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11954D61249BB0B200E64D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "photo-library-miraiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tria-project.photo-library-miraiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photo-library-mirai.app/photo-library-mirai";
+			};
+			name = Debug;
+		};
+		11954D62249BB0B200E64D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "photo-library-miraiTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tria-project.photo-library-miraiTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/photo-library-mirai.app/photo-library-mirai";
+			};
+			name = Release;
+		};
+		11954D64249BB0B200E64D36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "photo-library-miraiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tria-project.photo-library-miraiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "photo-library-mirai";
+			};
+			name = Debug;
+		};
+		11954D65249BB0B200E64D36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "photo-library-miraiUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tria-project.photo-library-miraiUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "photo-library-mirai";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11954D2E249BB0AF00E64D36 /* Build configuration list for PBXProject "photo-library-mirai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11954D5B249BB0B200E64D36 /* Debug */,
+				11954D5C249BB0B200E64D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11954D5D249BB0B200E64D36 /* Build configuration list for PBXNativeTarget "photo-library-mirai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11954D5E249BB0B200E64D36 /* Debug */,
+				11954D5F249BB0B200E64D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11954D60249BB0B200E64D36 /* Build configuration list for PBXNativeTarget "photo-library-miraiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11954D61249BB0B200E64D36 /* Debug */,
+				11954D62249BB0B200E64D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11954D63249BB0B200E64D36 /* Build configuration list for PBXNativeTarget "photo-library-miraiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11954D64249BB0B200E64D36 /* Debug */,
+				11954D65249BB0B200E64D36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11954D2B249BB0AF00E64D36 /* Project object */;
+}
