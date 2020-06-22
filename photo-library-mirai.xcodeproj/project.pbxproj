@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1129BFE7249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1129BFE6249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift */; };
+		1129BFE9249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1129BFE8249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift */; };
+		112EE9D924A06DDA00C08F01 /* PreviewImage_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112EE9D824A06DDA00C08F01 /* PreviewImage_ViewController.swift */; };
 		11954D37249BB0AF00E64D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D36249BB0AF00E64D36 /* AppDelegate.swift */; };
 		11954D39249BB0AF00E64D36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D38249BB0AF00E64D36 /* SceneDelegate.swift */; };
 		11954D3B249BB0AF00E64D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D3A249BB0AF00E64D36 /* ViewController.swift */; };
@@ -15,6 +18,9 @@
 		11954D43249BB0B200E64D36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11954D41249BB0B200E64D36 /* LaunchScreen.storyboard */; };
 		11954D4E249BB0B200E64D36 /* photo_library_miraiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D4D249BB0B200E64D36 /* photo_library_miraiTests.swift */; };
 		11954D59249BB0B200E64D36 /* photo_library_miraiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D58249BB0B200E64D36 /* photo_library_miraiUITests.swift */; };
+		383496DFAFEB0E2E2F0C734B /* Pods_photo_library_mirai_photo_library_miraiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C68E80D2229A85BF762CA528 /* Pods_photo_library_mirai_photo_library_miraiUITests.framework */; };
+		642CA105A5AEB66970C9BF6C /* Pods_photo_library_mirai.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F94883DC572A05BA004FC83E /* Pods_photo_library_mirai.framework */; };
+		D4B3ECEF4CCD39A885EB197A /* Pods_photo_library_miraiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A61C333BEEB3C807E73FD1 /* Pods_photo_library_miraiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1129BFE6249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLibrary_CollectionViewCell.swift; sourceTree = "<group>"; };
+		1129BFE8249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLibrary_CollectionReusableView.swift; sourceTree = "<group>"; };
+		112EE9D824A06DDA00C08F01 /* PreviewImage_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewImage_ViewController.swift; sourceTree = "<group>"; };
 		11954D33249BB0AF00E64D36 /* photo-library-mirai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-library-mirai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11954D36249BB0AF00E64D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11954D38249BB0AF00E64D36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +58,15 @@
 		11954D54249BB0B200E64D36 /* photo-library-miraiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "photo-library-miraiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11954D58249BB0B200E64D36 /* photo_library_miraiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = photo_library_miraiUITests.swift; sourceTree = "<group>"; };
 		11954D5A249BB0B200E64D36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AF7D13D92FD836408FBC6EE /* Pods-photo-library-mirai.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-library-mirai.debug.xcconfig"; path = "Target Support Files/Pods-photo-library-mirai/Pods-photo-library-mirai.debug.xcconfig"; sourceTree = "<group>"; };
+		29448C2E75028121EB79BC01 /* Pods-photo-library-mirai-photo-library-miraiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-library-mirai-photo-library-miraiUITests.release.xcconfig"; path = "Target Support Files/Pods-photo-library-mirai-photo-library-miraiUITests/Pods-photo-library-mirai-photo-library-miraiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		56BC6AB6FE3FFB7B1C845AA3 /* Pods-photo-library-mirai.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-library-mirai.release.xcconfig"; path = "Target Support Files/Pods-photo-library-mirai/Pods-photo-library-mirai.release.xcconfig"; sourceTree = "<group>"; };
+		67C532DFA250F23D24D9E310 /* Pods-photo-library-miraiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-library-miraiTests.debug.xcconfig"; path = "Target Support Files/Pods-photo-library-miraiTests/Pods-photo-library-miraiTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C1196E547514A15C732F32A4 /* Pods-photo-library-mirai-photo-library-miraiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-library-mirai-photo-library-miraiUITests.debug.xcconfig"; path = "Target Support Files/Pods-photo-library-mirai-photo-library-miraiUITests/Pods-photo-library-mirai-photo-library-miraiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C68E80D2229A85BF762CA528 /* Pods_photo_library_mirai_photo_library_miraiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_library_mirai_photo_library_miraiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21E4AA32D3698B5CCA02FFD /* Pods-photo-library-miraiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-photo-library-miraiTests.release.xcconfig"; path = "Target Support Files/Pods-photo-library-miraiTests/Pods-photo-library-miraiTests.release.xcconfig"; sourceTree = "<group>"; };
+		F94883DC572A05BA004FC83E /* Pods_photo_library_mirai.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_library_mirai.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A61C333BEEB3C807E73FD1 /* Pods_photo_library_miraiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_photo_library_miraiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				642CA105A5AEB66970C9BF6C /* Pods_photo_library_mirai.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4B3ECEF4CCD39A885EB197A /* Pods_photo_library_miraiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				383496DFAFEB0E2E2F0C734B /* Pods_photo_library_mirai_photo_library_miraiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AABBC3C4F41B5465AA0ED77 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AF7D13D92FD836408FBC6EE /* Pods-photo-library-mirai.debug.xcconfig */,
+				56BC6AB6FE3FFB7B1C845AA3 /* Pods-photo-library-mirai.release.xcconfig */,
+				C1196E547514A15C732F32A4 /* Pods-photo-library-mirai-photo-library-miraiUITests.debug.xcconfig */,
+				29448C2E75028121EB79BC01 /* Pods-photo-library-mirai-photo-library-miraiUITests.release.xcconfig */,
+				67C532DFA250F23D24D9E310 /* Pods-photo-library-miraiTests.debug.xcconfig */,
+				D21E4AA32D3698B5CCA02FFD /* Pods-photo-library-miraiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		11954D2A249BB0AF00E64D36 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +117,8 @@
 				11954D4C249BB0B200E64D36 /* photo-library-miraiTests */,
 				11954D57249BB0B200E64D36 /* photo-library-miraiUITests */,
 				11954D34249BB0AF00E64D36 /* Products */,
+				0AABBC3C4F41B5465AA0ED77 /* Pods */,
+				89445411EC249E3667B3A119 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +142,9 @@
 				11954D3F249BB0B200E64D36 /* Assets.xcassets */,
 				11954D41249BB0B200E64D36 /* LaunchScreen.storyboard */,
 				11954D44249BB0B200E64D36 /* Info.plist */,
+				1129BFE6249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift */,
+				1129BFE8249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift */,
+				112EE9D824A06DDA00C08F01 /* PreviewImage_ViewController.swift */,
 			);
 			path = "photo-library-mirai";
 			sourceTree = "<group>";
@@ -128,6 +167,16 @@
 			path = "photo-library-miraiUITests";
 			sourceTree = "<group>";
 		};
+		89445411EC249E3667B3A119 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F94883DC572A05BA004FC83E /* Pods_photo_library_mirai.framework */,
+				C68E80D2229A85BF762CA528 /* Pods_photo_library_mirai_photo_library_miraiUITests.framework */,
+				F9A61C333BEEB3C807E73FD1 /* Pods_photo_library_miraiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11954D5D249BB0B200E64D36 /* Build configuration list for PBXNativeTarget "photo-library-mirai" */;
 			buildPhases = (
+				A672425BD6F25873AE83D6E7 /* [CP] Check Pods Manifest.lock */,
 				11954D2F249BB0AF00E64D36 /* Sources */,
 				11954D30249BB0AF00E64D36 /* Frameworks */,
 				11954D31249BB0AF00E64D36 /* Resources */,
+				CC0722DD7BCF06D16A3042AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11954D60249BB0B200E64D36 /* Build configuration list for PBXNativeTarget "photo-library-miraiTests" */;
 			buildPhases = (
+				E0355EC85D6AA169D077136A /* [CP] Check Pods Manifest.lock */,
 				11954D45249BB0B200E64D36 /* Sources */,
 				11954D46249BB0B200E64D36 /* Frameworks */,
 				11954D47249BB0B200E64D36 /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 11954D63249BB0B200E64D36 /* Build configuration list for PBXNativeTarget "photo-library-miraiUITests" */;
 			buildPhases = (
+				1F6E7B3DCBE625428CEE10E0 /* [CP] Check Pods Manifest.lock */,
 				11954D50249BB0B200E64D36 /* Sources */,
 				11954D51249BB0B200E64D36 /* Frameworks */,
 				11954D52249BB0B200E64D36 /* Resources */,
+				8DF73AB3F7B4142A833C8A32 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -254,6 +308,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F6E7B3DCBE625428CEE10E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-photo-library-mirai-photo-library-miraiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DF73AB3F7B4142A833C8A32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photo-library-mirai-photo-library-miraiUITests/Pods-photo-library-mirai-photo-library-miraiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photo-library-mirai-photo-library-miraiUITests/Pods-photo-library-mirai-photo-library-miraiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-photo-library-mirai-photo-library-miraiUITests/Pods-photo-library-mirai-photo-library-miraiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A672425BD6F25873AE83D6E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-photo-library-mirai-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC0722DD7BCF06D16A3042AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photo-library-mirai/Pods-photo-library-mirai-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-photo-library-mirai/Pods-photo-library-mirai-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-photo-library-mirai/Pods-photo-library-mirai-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0355EC85D6AA169D077136A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-photo-library-miraiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		11954D2F249BB0AF00E64D36 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +418,9 @@
 			files = (
 				11954D3B249BB0AF00E64D36 /* ViewController.swift in Sources */,
 				11954D37249BB0AF00E64D36 /* AppDelegate.swift in Sources */,
+				1129BFE7249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift in Sources */,
+				112EE9D924A06DDA00C08F01 /* PreviewImage_ViewController.swift in Sources */,
+				1129BFE9249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift in Sources */,
 				11954D39249BB0AF00E64D36 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,10 +592,13 @@
 		};
 		11954D5E249BB0B200E64D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AF7D13D92FD836408FBC6EE /* Pods-photo-library-mirai.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664Q97U4T4;
 				INFOPLIST_FILE = "photo-library-mirai/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,10 +612,13 @@
 		};
 		11954D5F249BB0B200E64D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56BC6AB6FE3FFB7B1C845AA3 /* Pods-photo-library-mirai.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 664Q97U4T4;
 				INFOPLIST_FILE = "photo-library-mirai/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,6 +632,7 @@
 		};
 		11954D61249BB0B200E64D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67C532DFA250F23D24D9E310 /* Pods-photo-library-miraiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +654,7 @@
 		};
 		11954D62249BB0B200E64D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D21E4AA32D3698B5CCA02FFD /* Pods-photo-library-miraiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +676,7 @@
 		};
 		11954D64249BB0B200E64D36 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1196E547514A15C732F32A4 /* Pods-photo-library-mirai-photo-library-miraiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +696,7 @@
 		};
 		11954D65249BB0B200E64D36 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29448C2E75028121EB79BC01 /* Pods-photo-library-mirai-photo-library-miraiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

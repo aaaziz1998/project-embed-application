@@ -1,0 +1,6 @@
+framework module Pods_photo_library_miraiTests {
+  umbrella header "Pods-photo-library-miraiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - JGProgressHUD (2.1)
+  - SkeletonView (1.8.7)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - SkeletonView
+
+SPEC REPOS:
+  trunk:
+    - JGProgressHUD
+    - SkeletonView
+
+SPEC CHECKSUMS:
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  SkeletonView: ba5370f41280b2f0a76918bb143c1294232bb4f4
+
+PODFILE CHECKSUM: 493b1415d304512bc06738ebd84ca7f5d53e8275
+
+COCOAPODS: 1.9.1
