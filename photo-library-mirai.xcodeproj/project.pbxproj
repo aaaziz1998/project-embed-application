@@ -10,6 +10,7 @@
 		1129BFE7249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1129BFE6249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift */; };
 		1129BFE9249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1129BFE8249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift */; };
 		112EE9D924A06DDA00C08F01 /* PreviewImage_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112EE9D824A06DDA00C08F01 /* PreviewImage_ViewController.swift */; };
+		112EE9DE24A0AD2F00C08F01 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112EE9DD24A0AD2F00C08F01 /* Extension.swift */; };
 		11954D37249BB0AF00E64D36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D36249BB0AF00E64D36 /* AppDelegate.swift */; };
 		11954D39249BB0AF00E64D36 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D38249BB0AF00E64D36 /* SceneDelegate.swift */; };
 		11954D3B249BB0AF00E64D36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11954D3A249BB0AF00E64D36 /* ViewController.swift */; };
@@ -44,6 +45,7 @@
 		1129BFE6249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLibrary_CollectionViewCell.swift; sourceTree = "<group>"; };
 		1129BFE8249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLibrary_CollectionReusableView.swift; sourceTree = "<group>"; };
 		112EE9D824A06DDA00C08F01 /* PreviewImage_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewImage_ViewController.swift; sourceTree = "<group>"; };
+		112EE9DD24A0AD2F00C08F01 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		11954D33249BB0AF00E64D36 /* photo-library-mirai.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "photo-library-mirai.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		11954D36249BB0AF00E64D36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11954D38249BB0AF00E64D36 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +112,38 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		112EE9DA24A0ACE100C08F01 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1129BFE6249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift */,
+				1129BFE8249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		112EE9DB24A0ACF400C08F01 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				11954D3A249BB0AF00E64D36 /* ViewController.swift */,
+				112EE9D824A06DDA00C08F01 /* PreviewImage_ViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		112EE9DC24A0AD0000C08F01 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				11954D36249BB0AF00E64D36 /* AppDelegate.swift */,
+				11954D38249BB0AF00E64D36 /* SceneDelegate.swift */,
+				11954D3C249BB0AF00E64D36 /* Main.storyboard */,
+				11954D3F249BB0B200E64D36 /* Assets.xcassets */,
+				11954D41249BB0B200E64D36 /* LaunchScreen.storyboard */,
+				11954D44249BB0B200E64D36 /* Info.plist */,
+				112EE9DD24A0AD2F00C08F01 /* Extension.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		11954D2A249BB0AF00E64D36 = {
 			isa = PBXGroup;
 			children = (
@@ -135,16 +169,9 @@
 		11954D35249BB0AF00E64D36 /* photo-library-mirai */ = {
 			isa = PBXGroup;
 			children = (
-				11954D36249BB0AF00E64D36 /* AppDelegate.swift */,
-				11954D38249BB0AF00E64D36 /* SceneDelegate.swift */,
-				11954D3A249BB0AF00E64D36 /* ViewController.swift */,
-				11954D3C249BB0AF00E64D36 /* Main.storyboard */,
-				11954D3F249BB0B200E64D36 /* Assets.xcassets */,
-				11954D41249BB0B200E64D36 /* LaunchScreen.storyboard */,
-				11954D44249BB0B200E64D36 /* Info.plist */,
-				1129BFE6249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift */,
-				1129BFE8249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift */,
-				112EE9D824A06DDA00C08F01 /* PreviewImage_ViewController.swift */,
+				112EE9DC24A0AD0000C08F01 /* Base */,
+				112EE9DB24A0ACF400C08F01 /* View Controller */,
+				112EE9DA24A0ACE100C08F01 /* Cells */,
 			);
 			path = "photo-library-mirai";
 			sourceTree = "<group>";
@@ -418,6 +445,7 @@
 			files = (
 				11954D3B249BB0AF00E64D36 /* ViewController.swift in Sources */,
 				11954D37249BB0AF00E64D36 /* AppDelegate.swift in Sources */,
+				112EE9DE24A0AD2F00C08F01 /* Extension.swift in Sources */,
 				1129BFE7249C4E9C00759A55 /* ImageLibrary_CollectionViewCell.swift in Sources */,
 				112EE9D924A06DDA00C08F01 /* PreviewImage_ViewController.swift in Sources */,
 				1129BFE9249C519F00759A55 /* ImageLibrary_CollectionReusableView.swift in Sources */,
